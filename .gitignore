@@ -9,3 +9,9 @@ artifacts
 hyperexecute*
 hyperexecute-cli.log
 artifacts-old*/
+node_modules/
+hyperexecute
+hyperexecute.exe
+.hyperexecute.exe.old
+hyperexecuteupdate
+hyperexecute-code-*.zip
