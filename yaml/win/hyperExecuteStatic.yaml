@@ -15,8 +15,6 @@ concurrency: 3
 autosplit: true
 
 pre:
-  - node -v
-  - npm -v
   - npm install
 
 cacheKey: '{{ checksum "package-lock.json" }}'

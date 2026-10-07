@@ -23,8 +23,6 @@ cacheDirectories:
   - node_modules
 
 pre:
-  - node -v
-  - npm -v
   - npm install
 
 mergeArtifacts: true

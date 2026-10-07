@@ -14,10 +14,7 @@ cacheKey: '{{ checksum "package-lock.json" }}'
 cacheDirectories:
   - node_modules
 
-
 pre:
-  - node -v
-  - npm -v
   - npm install
 
 matrix:
